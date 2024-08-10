@@ -12,6 +12,15 @@ body {
     height: 100pt;
     background-color: rgb(94, 94, 94);
     border-radius: 20px 20px 0px 0px;
+    display: flex;
+    font-size: 84px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.display > span {
+    margin-right: 40px;
+    color: white;
 }
 
 .container {
@@ -39,20 +48,20 @@ body {
 }
 
 .digit {
-    background-color: #a6a6a6;
+    background-color: hsl(0, 0%, 45%);
     width: 115px;
     height: 115px;
     border-radius: 50%;
 }
 .operator {
-    background-color: rgb(255, 191, 73);
+    background-color: hsl(41, 100%, 50%);
     width: 115px;
     height: 115px;
     border-radius: 50%;
 }
 
 .backspace {
-    background-color: rgb(252, 95, 95);
+    background-color: hsl(0, 96%, 48%);
     width: 380px;
     border-radius: 50px;
 }
