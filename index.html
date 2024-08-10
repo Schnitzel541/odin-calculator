@@ -8,7 +8,9 @@
 </head>
 <body>
     <div class="container">
-        <div class="display"></div>
+        <div class="display">
+            <span></span>
+        </div>
         <div class="body">
             <button class="digit">7</button>
             <button class="digit">8</button>
@@ -22,14 +24,15 @@
             <button class="digit">2</button>
             <button class="digit">3</button>
             <button class="operator">+</button>
-            <button class="digit">C</button>
+            <button class="clear">C</button>
             <button class="digit">0</button>
             <button class="digit">.</button>
             <button class="operator">/</button>
-            <button id="backspace" class="backspace">Delete</button>
-            <button class="operator">=</button>
+            <button id="backspace" class="backspace">Backspace</button>
+            <button onclick="calculate()" class="sum">=</button>
             
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

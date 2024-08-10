@@ -53,7 +53,22 @@ body {
     height: 115px;
     border-radius: 50%;
 }
+
+.clear {
+    background-color: hsl(0, 0%, 45%);
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+}
+
 .operator {
+    background-color: hsl(41, 100%, 50%);
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+}
+
+.sum {
     background-color: hsl(41, 100%, 50%);
     width: 115px;
     height: 115px;
@@ -69,7 +84,7 @@ body {
 .digit:hover {
     background-color: hsl(0, 0%, 75%);
 }
-.operator:hover {
+.operator:hover, .sum:hover {
     background-color: hsl(39, 100%, 74%);
 }
 .backspace:hover {
@@ -79,7 +94,7 @@ body {
 .digit:active {
     background-color: hsl(0, 0%, 85%);
 }
-.operator:active {
+.operator:active, .sum:active {
     background-color: hsl(39, 100%, 84%);
 }
 .backspace:active {
